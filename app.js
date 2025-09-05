@@ -32,15 +32,15 @@ if (input === passWord) {
 
 
 // b
-const KORREKT = "Oslo2025!";
+/*const KORREKT = "Oslo2025!";  
   let input;
-  let forsok = 0;          // счётчик
-  const maksForsok = 3;    // максимум попыток
+  let forsok = 0;
+  const maksForsok = 3;
 
   while (forsok < maksForsok) {
     input = prompt("Skriv inn passord (forsøk " + (forsok+1) + " av " + maksForsok + "):");
 
-    if (input === null) { // если нажал Cancel
+    if (input === null) {
       alert("Avbrutt.");
       break;
     }
@@ -56,8 +56,40 @@ const KORREKT = "Oslo2025!";
     forsok++;
   }
 
-  // если все 3 попытки использованы и пароль не угадан
+
   if (forsok === maksForsok && input !== KORREKT) {
     document.body.innerHTML = "<h1>Tilgang nektet ❌</h1><p>Du har brukt alle forsøkene.</p>";
     console.log("Tilgang nektet");
+  }*/
+
+
+  // Oppgave 3
+
+/*let valg = prompt("Vil du se oddetall eller partall? Skriv 'odde' eller 'par'.");
+
+if (valg === "par") {
+  for (let i = 0; i <= 100; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
   }
+} else if (valg === "odde") {
+  for (let i = 0; i <= 100; i++) {
+    if (i % 2 !== 0) {
+      console.log(i);
+    }
+  }
+} else {
+  console.log("Ugyldig valg. Skriv 'odde' eller 'par'.");
+}
+*/
+
+
+  // Oppgave 4 
+
+  /*for (let i = 1; i <= 10; i++) {
+  for (let j = 1; j <= 10; j++) {
+    console.log(i + " x " + j + " = " + (i * j));
+  }
+  console.log("----------");
+}*/
